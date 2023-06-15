@@ -1,0 +1,55 @@
+<h1>Fórmularios</h1>
+<!-- Faltou abrir a tag form 
+por isto os botões submit e reset não estavam funcionando-->
+<form action="">
+<fieldset>
+    <legend>Dados Pessoais</legend>
+    <label for="nome">Nome: </label>
+    <!-- <input type="text" name="Nome" id="nome" value="petrick :3" autofocos required> -->
+    <input type="text" name="Nome" id="nome" autofocos required>
+    <br>
+    <label for="idade">Idade: </label>
+    <!-- <input type="text" name="idade" id="idade" placeholder="Digite seu idade."> -->
+    <input type="number" name="idade" id="idade" placeholder="Digite seu idade.">
+    <br>
+<!-- Para Sexo use a tag SELECT - veja no slide 49 -->
+    <label for="sexo">Sexo: </label>
+    <input type="text" name="sexo" id="sexo" placeholder="Digite sua sexo.">
+    <br>
+    <label>banco</label>
+    <br>
+    <!-- Como o botão de rádio o usuário só pode escolher um, então o nome dele deve ser o mesmo para todos
+    por isto que anteriormente ele estava aceitando marcar mais de um. -->
+    <input type="radio" name="banco" id="caixa" value="caixa" checked>
+    <label for="caixa">Caixa</label>
+    <input type="radio" name="banco" id="banco do brasil" value="banco do brasil">
+    <label for="banco do brasil">Banco do brasil</label>
+    <input type="radio" name="banco" id="itau" value="itau">
+    <label for="itau">Itaú</label>
+    <input type="radio" name="banco" id="bradesco" value="bradesco">
+    <label for="bradesco">Bradesco</label><br>
+    <!-- <input type="radio" name="Juridico" id="Juridico" value="Juridico">
+    <label for="Juridico">Juridico</label><br> -->
+    <label>Gosto de:</label>
+    <br>
+    <input type="checkbox" name="livro" id="livro" value="livro" checked>
+    <label for="livro">Livro</label>
+    <br>
+    <input type="checkbox" name="filme" id="filme" value="filme">
+    <label for="filme">Filme</label>
+    <br>
+    <!-- <input type="checkbox" name="esport" id="esport" value="esport"> -->
+    <input type="checkbox" name="esporte" id="esporte" value="esporte">
+    <label for="esporte">Esporte</label>
+    <br>
+    <label for="curriculo">Observações</label><br>
+    <textarea name="curriculo" id="curriculo" cols="40" rows="4"></textarea>
+</fieldset>
+<input type="submit" value="Envie">
+<input type="reset" value="Limpar">
+</form>
+
+<body>
+    <!-- <p><a href="xd.html" target="_blank">Link para pagina principal</a></p> -->
+    <p><a href="xd.html">Link para pagina principal</a></p>
+</body>
